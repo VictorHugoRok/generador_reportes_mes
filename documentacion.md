@@ -106,3 +106,27 @@ Para cambiar el prefijo, se puede modificar en el código:
 ```vb
 patronLike = "1*" & sufijo
 ```
+
+
+
+# Gestión de la configuración
+
+En la carpeta del proyecto se encuentran cada uno de los códigos aplicados en las macros del archivo de reporte de pólizas de GPA. Estos se pueden abrir directamente en un IDE para editarse en caso de no querer usar directamente el editor de Excel.
+
+El orden de las carpetas se encuentra de la siguiente manera:
+
+- **Documento_Proyecto_Revision_Polizas**
+- **reportes**
+  - `FILTRACION_NUEVOS_AXA.bas`
+  - `NUEVO_GENERADOR_REPORTE_MENSUAL.bas`
+  - `RANKING_MES_GMM.bas`
+- **revision_primas**
+  - `Formulario_botones.frm`
+  - `Formulario_botones.frx`
+  - `LIMPIAR_REPORTE_AXA.bas`
+  - `REVISAR_PRIMA.bas`
+  - `REVISAR_PRIMAS_CON_RECLICADAS.bas`
+  - `REVISAR_PRIMA_CC_GMM.bas`
+  - `REVISAR_PRIMA_CNMENSUALIDADES.bas`
+- `ENVIAR ACTUALIZACION.bas`
+
