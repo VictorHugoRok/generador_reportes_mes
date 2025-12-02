@@ -106,8 +106,29 @@ Para cambiar el prefijo, se puede modificar en el código:
 ```vb
 patronLike = "1*" & sufijo
 ```
+## Enviar actualización
 
+La función envía una actualización de los reportes de **GMM** y **VIDA**, creando un nuevo libro donde solo se incluyen las hojas que contienen dichos reportes.  
+El archivo generado se guarda en el **mismo directorio** en el que se encuentra el documento con la macro.
 
+---
+
+### Cambiar el nombre del archivo generado
+
+Para modificar el nombre del documento que se generará, se puede editar la siguiente línea:
+
+```vb
+newFileName = "Actualizacion_reporte_" & Format(Date, "yyyy-mm-dd") & ".xlsx"
+```
+
+##Hojas que se copian al nuevo libro
+
+En la siguiente parte del código se definen las hojas que serán copiadas al nuevo libro.
+Si se desean agregar más hojas, deberán añadirse de la misma forma o, en su caso, únicamente cambiar los nombres:
+```vb
+Set wsVida = ThisWorkbook.Sheets("Polizas de VIDA en 2025")
+Set wsGMM = ThisWorkbook.Sheets("Polizas de GMM en 2025")
+```
 
 # Gestión de la configuración
 
