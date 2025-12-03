@@ -174,6 +174,64 @@ Para la revisión de prima pagada se recomienda seguir los siguientes pasos para
 
 <img width="1354" height="344" alt="DiagramaPrima drawio" src="https://github.com/user-attachments/assets/07a48d68-0fd9-4b70-a339-b18e1c7a2f00" />
 
+# Proceso de Revisión de Prima con Mensualidades
+
+Para la revisión de pólizas con frecuencia de pago mensual, el proceso es bastante similar al de revisión por mes explicado en la sección anterior.
+
+1. **Descargar los archivos de reportes mensuales** de cada centro de costo desde la página de AXA Seguros.  
+   - Para conocer el proceso de descarga de los archivos, consulte a un encargado del área.
+
+2. **Ingrese a la hoja _REVISION Y REPORTES_.**
+
+3. Seleccione la opción **REVISAR PRIMA PAGADA CON MENSUALIDADES INCLUIDAS POR CENTRO DE COSTO**.
+
+4. Ingrese la **terminación o las terminaciones de las pólizas** que se revisarán durante todo el año y que se pagan mensualmente.
+
+5. Se abrirá el explorador de archivos donde debe **seleccionar el archivo de reporte mensual de AXA** de cada centro de costo.
+
+6. **Repita los pasos anteriores** para cada centro de costo.
+
+7. Diríjase a su **hoja de reporte de pólizas (GMM o VIDA)**.
+
+8. En la hoja verá que **todas las columnas de pólizas pagadas** (es decir, que aparecen en el reporte de AXA) estarán **señaladas en color Verde**.  
+   - Esto indica que la póliza de pago mensual se ha pagado nuevamente en el mes del reporte descargado y, por lo tanto, **sigue vigente**.
+
+9. **Señale el mes o la fecha del último pago** de la póliza mensual, según lo indicado por el encargado del área.
+
+---
+
+### Diagrama del proceso
+<img width="1384" height="274" alt="Mensualidades drawio" src="https://github.com/user-attachments/assets/12d5c88f-4947-484d-9bd7-cc55f399f22e" />
+
+
+# Generar Reportes
+
+Para el proceso que genera un reporte mensual con ranking de agentes, se deben seguir los siguientes pasos:
+
+1. **Descargar todos los archivos de reporte mensual de AXA** de todos los centros de costo.  
+   - Para conocer el proceso de descarga de los archivos, consulte a un encargado del área.
+
+2. **Ingrese a la hoja _REVISION Y REPORTES_.**
+
+3. Seleccione la opción **GENERACIÓN DE REPORTES**.
+
+4. Se abrirá una ventana con los pasos a seguir:
+
+   a. **Paso 1:**  
+      Seleccione la primera opción e **ingrese los archivos de los cinco centros de costo** previamente descargados.  
+      - Se genera una nueva hoja de cálculo en el libro, con el nombre **“Reporte consolidado”**.
+
+   b. **Paso 2:**  
+      Seleccione la segunda opción, que **limpia los datos para “nuevos en AXA” mayores a 0**.  
+      - Se genera una nueva hoja de cálculo llamada **“Comparativo pólizas”**.
+
+   c. **Paso 3:**  
+      Seleccione la tercera opción, que **genera el ranking**.  
+      - Se genera una hoja de cálculo llamada **“Ranking Agentes”**.
+
+De esta manera, se crea un **nuevo ranking mensual**, que **no toma en cuenta las pólizas con valor 0 en “nuevos en AXA”**.
+
+<img width="1173" height="354" alt="Reportes drawio" src="https://github.com/user-attachments/assets/8a3d4550-baa4-488a-8bd8-bcf1312ad7c2" />
 
 
 # Gestión de la configuración
