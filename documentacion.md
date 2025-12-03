@@ -1,5 +1,8 @@
 # Revisión de Prima Pagada — Documentación
 
+Este pequeño proyecto es resultado y forma parte de mi tiempo de practicas profesionales que lleve a cabo en la promotoría Grupo Ponce y Asociados alrededor de 3 meses cumpliendo 320 horas de prácticas profesionales.
+Agradezco a Grupo Ponce y Asociados por la oportunidad que me brindaron de haber sido parte de su equipo durante este tiempo, el cual fue de gran aprendizaje y emoción día con día durante esta etapa.
+
 La revisión de prima pagada es una actividad que requiere múltiples pasos para verificar que la póliza ha sido pagada en el mes en curso y no ha sido cancelada. Validar que la póliza está pagada requiere la descarga de reportes generados en la página de la compañía **AXA**, ya sea por número de agente o por centro de costo.  
 En este caso se utilizan los reportes mensuales por centro de costo; por lo que el archivo que se procesa para la comparación es el del reporte mensual por cada uno de los centros de costo en **Grupo Ponce A.S.C.**
 
@@ -128,6 +131,11 @@ Si se desean agregar más hojas, deberán añadirse de la misma forma o, en su c
 ```vb
 Set wsVida = ThisWorkbook.Sheets("Polizas de VIDA en 2025")
 Set wsGMM = ThisWorkbook.Sheets("Polizas de GMM en 2025")
+```
+
+Finalmente el nombre del nuevo libro con el reporte guardado será: 
+```vb
+Actualizacion_reporte(fecha).xlsx
 ```
 
 # Gestión de la configuración
