@@ -234,6 +234,37 @@ De esta manera, se crea un **nuevo ranking mensual**, que **no toma en cuenta la
 <img width="1173" height="354" alt="Reportes drawio" src="https://github.com/user-attachments/assets/8a3d4550-baa4-488a-8bd8-bcf1312ad7c2" />
 
 
+## ⚙️ Módulos en el Archivo Excel
+
+El archivo de Excel se encuentra en una unidad compartida y tiene la extensión **`.xlsm`**, lo que indica que es un archivo **Excel habilitado para macros**.
+
+---
+
+### Módulos Contenidos:
+
+A continuación, se detallan los módulos (funciones de macro) presentes en el archivo:
+
+* **`ENVIAR_ACTUALIZACION`**:
+    Contiene la función que **envía la actualización del reporte**, la cual está asignada al botón denominado **"ENVIA ACTUALIZACION"**.
+
+* **`LIMPIAR_REPORTE_AXA`**:
+    Contiene la función que ayuda a **limpiar el reporte consolidado** para la generación de reportes de *ranking* mensual, específicamente **elimina los 0** en el apartado de AXA.
+
+* **`MOSTRAR MENU`**:
+    Función que **muestra el formulario** de generación de reportes.
+
+* **`REVISAR_PRIMA`**:
+    Contiene la función que **revisa primas pagadas de GMM** (Gastos Médicos Mayores) del mes que se ingrese.
+
+* **`REVISAR_PRIMA_CNMENSUALIDADES1`**:
+    Contiene la función que **revisa primas pagadas de GMM** tomando en cuenta las pólizas con **frecuencia de pago mensual**.
+
+* **`REVISAR_PRIMA_VIDA`**:
+    Contiene la función que **revisa prima pagada de VIDA** del mes que se ingrese.
+
+* **`REVISAR_PRIMA_VIDA_MENSUALES`**:
+    Contiene la función que **revisa prima pagada de VIDA** de las pólizas **mensuales**.
+
 # Gestión de la configuración
 
 En la carpeta del proyecto se encuentran cada uno de los códigos aplicados en las macros del archivo de reporte de pólizas de GPA. Estos se pueden abrir directamente en un IDE para editarse en caso de no querer usar directamente el editor de Excel.
