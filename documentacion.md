@@ -137,6 +137,44 @@ Finalmente el nombre del nuevo libro con el reporte guardado será:
 ```vb
 Actualizacion_reporte(fecha).xlsx
 ```
+# Proceso de revision de pólizas
+
+# Revisión de Prima Pagada
+
+Para la revisión de prima pagada se recomienda seguir los siguientes pasos para el correcto uso de las macros en los libros asignados.
+
+1. **Descargar los archivos de reportes mensuales** de cada centro de costo desde la página de AXA Seguros.  
+   - Para conocer el proceso de descarga de los archivos, consulte a un encargado del área.
+
+2. **Ingrese a la hoja _REVISION Y REPORTES_.**
+
+3. Seleccione la opción **REVISAR PRIMA PAGADA POR CENTRO DE COSTO**.
+
+4. Se abrirá una pestaña en la que debe **ingresar la terminación de las pólizas a revisar**.
+
+5. Una vez ingresado, dé clic en **Aceptar** o presione **Enter**.
+
+6. Se abrirá una ventana del explorador de archivos donde debe **seleccionar uno de los archivos del centro de costo previamente descargados**.
+
+7. Se abrirá una pestaña donde debe **ingresar el mes a revisar del reporte de GPA**.  
+   - Una vez ingresado, presione **Enter**.
+
+8. **Repita los pasos anteriores** para cada uno de los archivos de los respectivos centros de costo.
+
+9. Diríjase a su **hoja de reporte de pólizas (GMM o VIDA)**.
+
+10. En la hoja verá la columna de las pólizas del mes ingresado, en dos colores:
+    - **Verde** – Indica que la póliza aparece en el reporte mensual de Axa, por lo que se puede marcar como pagada.  
+      - Marque la celda de **“PAGADA”** como **SI**.
+    - **Rojo** – Indica que la póliza no aparece en el reporte mensual de Axa; esto indica que **la póliza aún no está pagada**.
+
+11. Marque las celdas de **prima pagada** correspondientes con **SI**, según el color de la celda de la póliza.
+
+### Diagrama del proceso
+
+<img width="1354" height="344" alt="DiagramaPrima drawio" src="https://github.com/user-attachments/assets/07a48d68-0fd9-4b70-a339-b18e1c7a2f00" />
+
+
 
 # Gestión de la configuración
 
